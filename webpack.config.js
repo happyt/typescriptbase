@@ -1,7 +1,7 @@
 module.exports = {
-    entry: "./src/index.tsx",
+    entry: "./src/raytracer.ts",
     output: {
-        filename: "./dist/bundle.js",
+        filename: "./dist/raytracer.js",
     },
 
     // Enable sourcemaps for debugging webpack's output.
