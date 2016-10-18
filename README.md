@@ -15,4 +15,4 @@ Installs
  - npm install --save-dev ts-loader source-map-loader
  - npm link typescript    ( use central typescript )
 
- 
+ Added a page for the raytracer
