@@ -1,4 +1,4 @@
-## Testingtypescript
+## Testing typescript
 
 A learning project
 - from [https://www.typescriptlang.org/docs/handbook/react-&-webpack.html](https://www.typescriptlang.org/docs/handbook/react-&-webpack.html)
@@ -16,3 +16,10 @@ Installs
  - npm link typescript    ( use central typescript )
 
  Added a page for the raytracer
+ change this, in webpack.config
+ 
+ module.exports = {
+    entry: "./src/raytracer.ts",
+    output: {
+        filename: "./dist/raytracer.js",
+    },
